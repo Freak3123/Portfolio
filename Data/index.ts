@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a AI-Enhanced Photo Archive",
+      title: "Currently building a JS Animation library",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -107,33 +107,33 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Ashreeta was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ashreeta's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ashreeta is the ideal partner.",
-      name: "Amay Mani Tripathi",
-      title: "Husband",
+        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      name: "Michael Johnson",
+      title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "I had the pleasure of working with Ashreeta on a recent project, and I was impressed by her exceptional skills and work ethic. She is a talented web developer with a strong understanding of web development principles and technologies. Ashreeta is an excellent problem-solver and communicator, and has been a valuable asset to the team.",
-      name: "Sanjoy Mondal",
-      title: "Sir",
+        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      name: "Michael Johnson",
+      title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Ashreeta is a highly skilled web developer with a passion for delivering high-quality results. She is a team player who is always willing to lend a hand and provide support to her colleagues. Ashreeta's attention to detail and problem-solving skills are impressive, and she has been a valuable asset to the team.",
-      name: "Mahitosh Samal",
-      title: "Mentor of AIC",
+        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      name: "Michael Johnson",
+      title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "Ashreeta is a remarkable web developer whose passion for her work shines through in every project. Her ability to communicate complex ideas clearly and effectively has made collaboration seamless. Ashreeta consistently delivers high-quality results on time, and her innovative approach to challenges sets her apart. I wholeheartedly endorse her for any web development needs.",
-      name: "Renu Sharma",
-      title: "HOD of CSE, ITER",
+        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      name: "Michael Johnson",
+      title: "Director of AlphaStream Technologies",
     },
     {
       quote:
-        "I had the pleasure of collaborating with Ashreeta on a challenging project, and I was thoroughly impressed by her skills and professionalism. She approaches every task with enthusiasm and a positive attitude, making her a joy to work with. Ashreeta's ability to adapt to changing requirements and her strong technical foundation make her an invaluable asset to any team.",
-      name: "Me myself",
-      title: "Amay's wife",
+        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      name: "Michael Johnson",
+      title: "Director of AlphaStream Technologies",
     },
   ];
   
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Technical Lead",
+      title: "Frontend Engineer Intern",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "AI Developer",
-      desc: "Designed and built AI-driven chatbots for customer support, leveraging NLP techniques to improve response accuracy.",
+      title: "Mobile App Dev - JSM Tech",
+      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "UI/UX Developer",
-      desc: "Designed and developed user interfaces and experiences for a mobile app, collaborating with teams to create wireframes and prototypes, and ensuring usability through user testing.",
+      title: "Freelance App Dev Project",
+      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Frontend Developer",
-      desc: "Architected and deployed full-stack solutions, utilizing modern technologies to ensure high availability and scalability of both frontend and backend components.",
+      title: "Lead Frontend Developer",
+      desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },

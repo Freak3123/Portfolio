@@ -9,13 +9,13 @@ export const TextGenerateEffect = ({
   filter = true,
   duration = 0.5,
 }: {
-  words: (string | JSX.Element)[]; // Accept an array of strings or JSX elements
+  words: string;
   className?: string;
   filter?: boolean;
   duration?: number;
 }) => {
   const [scope, animate] = useAnimate();
-
+  let wordsArray = words.split(" ");
   useEffect(() => {
     animate(
       "span",
@@ -33,21 +33,16 @@ export const TextGenerateEffect = ({
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
-        {words.map((word, idx) => {
-          // Check if the word is a string
-          const isString = typeof word === 'string';
+        {wordsArray.map((word, idx) => {
           return (
             <motion.span
-              key={idx} // Use index as key
-              className={cn("opacity-0", {
-                'text-purple-500': isString && word.includes("Interactive Web Solutions"), // Apply purple class conditionally
-                'dark:text-white text-black': !(isString && word.includes("Interactive Web Solutions")),
-              })}
+              key={word + idx}
+              className={"${idx > 3 ? 'text-purple' : 'dark:text-white text-black' } opacity-0"}
               style={{
                 filter: filter ? "blur(10px)" : "none",
               }}
             >
-              {isString ? word : word}{" "} {/* Render the word or JSX element */}
+              {word}{" "}
             </motion.span>
           );
         })}
@@ -58,7 +53,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="my-4">
-        <div className="dark:text-white text-black leading-snug tracking-wide">
+        <div className=" dark:text-white text-black leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
