@@ -109,19 +109,19 @@ export const navItems = [
       quote:
         "Collaborating with Ashreeta was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ashreeta's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ashreeta is the ideal partner.",
       name: "Amay Mani Tripathi",
-      title: "Husband",
+      title: "Student Client",
     },
     {
       quote:
         "I had the pleasure of working with Ashreeta on a recent project, and I was impressed by her exceptional skills and work ethic. She is a talented web developer with a strong understanding of web development principles and technologies. Ashreeta is an excellent problem-solver and communicator, and has been a valuable asset to the team.",
-      name: "Sanjoy Mondal",
-      title: "Sir",
+      name: "Balaji Aryan Singh",
+      title: "Co-Founder Ekaayam",
     },
     {
       quote:
         "Ashreeta is a highly skilled web developer with a passion for delivering high-quality results. She is a team player who is always willing to lend a hand and provide support to her colleagues. Ashreeta's attention to detail and problem-solving skills are impressive, and she has been a valuable asset to the team.",
       name: "Mahitosh Samal",
-      title: "Mentor of AIC",
+      title: "Engineer, Daikin Airconditioning",
     },
     {
       quote:
@@ -132,8 +132,8 @@ export const navItems = [
     {
       quote:
         "I had the pleasure of collaborating with Ashreeta on a challenging project, and I was thoroughly impressed by her skills and professionalism. She approaches every task with enthusiasm and a positive attitude, making her a joy to work with. Ashreeta's ability to adapt to changing requirements and her strong technical foundation make her an invaluable asset to any team.",
-      name: "Me myself",
-      title: "Amay's wife",
+      name: "Ashutosh Dash",
+      title: "Fidelity International",
     },
   ];
   
@@ -205,13 +205,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Freak3123",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/leetcode.svg",
+      link: "https://leetcode.com/Freak3123",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/ashreeta-patra-012a0426a/",
     },
   ];
