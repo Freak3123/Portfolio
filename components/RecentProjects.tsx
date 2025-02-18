@@ -15,7 +15,8 @@ const RecentProjects = () => {
         {projects.map((item) => (
           <div key={item.id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
             <PinContainer
-              // title="Ongoing Project" href="https://www.linkedin.com/in/ashreeta-patra-012a0426a/"
+              title={item.title}
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[20vh] mb-10">
                 <div
