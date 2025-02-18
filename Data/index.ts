@@ -98,7 +98,7 @@ export const navItems = [
       id: 4,
       title: "BinaryBrink - For EVs",
       des: "Developed BinaryBrink, an EV app integrating real-time data tracking, ML-driven predictions, and interactive UI with advanced mapping and analytics.",
-      img: "/binarybrink.svg",
+      img: "/binarybrink.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/Freak3123/HackNation_Binarybrink/tree/main/Binarybrink",
     },
