@@ -90,7 +90,7 @@ export const navItems = [
       id: 3,
       title: "Agriculture Management System",
       des: "Developed Agriculture Management System, a Django-based web app that manages labor data, featuring an optimized UI and enhanced user experience with various libraries.",
-      img: "/agri.png",
+      img: "/agri.webp",
       iconLists: ["/dj.svg", "/python.svg", "/sqlite.svg", "/jquery.svg", "/redux.svg"],
       link: "/https://github.com/Freak3123/AgricultureManagementSystem",
     },
